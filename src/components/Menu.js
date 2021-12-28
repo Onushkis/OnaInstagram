@@ -10,12 +10,12 @@ import ProfileIcon from './ProfileIcon'
 const Menu = () => {
     return ( 
 <div className="menu">
-<Home className='icon' />
-<Inbox className='icon' />
-<NewPost className='icon' />
-<Explore className='icon' />
-<Notifications className='icon' />
-<ProfileIcon iconSize="small" image={image}/>
+        <Home className='icon' />
+        <Inbox className='icon' />
+        <NewPost className='icon' />
+        <Explore className='icon' />
+        <Notifications className='icon' />
+        <ProfileIcon iconSize="small" image={image}/>
 
 </div>
      );
