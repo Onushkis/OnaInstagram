@@ -1,4 +1,4 @@
-import '../styles/stories.scss';
+import '../styles/story.scss';
 import ProfileIcon from './ProfileIcon';
 import users from '../data/users';
 
