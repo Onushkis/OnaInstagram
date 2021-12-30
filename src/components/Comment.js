@@ -1,7 +1,11 @@
 import '../styles/comment.scss';
-const Comment = () => {
+const Comment = (props) => {
+    const { accountName, comment} = props;
     return ( 
-        <div className="comment"></div>
+        <div className="commentContainer">
+            <div className='acountName'>{accountName}</div>
+            <div className='comment'>{comment}</div>
+        </div>
      );
 }
  
